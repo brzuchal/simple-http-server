@@ -1,0 +1,20 @@
+{
+  "name": "brzuchal/simple-http-server",
+  "description": "Simple HTTP Server based on HttpFoundation w/o concurrency",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Brzuchal\\SimpleHTTPServer\\": "src/"
+    }
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Michał Brzuchalski",
+      "email": "michal.brzuchalski@gmail.com"
+    }
+  ],
+  "require": {
+    "symfony/http-foundation": "^3.3"
+  }
+}
